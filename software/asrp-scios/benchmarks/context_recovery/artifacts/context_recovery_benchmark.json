@@ -1,0 +1,167 @@
+{
+  "benchmark_id": "sprint-005-context-recovery",
+  "evaluation_type": "automated_synthetic_proxy",
+  "human_evaluation_executed": false,
+  "results": [
+    {
+      "deterministic_output_hash": "50cc098995a2230d48e958ccb21941617b431bedcb3bbe48e7becb9ca577eb59",
+      "generation_time_ms": 1.1472,
+      "limitations": [
+        "Synthetic fixture only; results may not generalize to real project graphs.",
+        "Metrics are automated proxies; no human evaluation was performed.",
+        "generation_time_ms is process-local generation latency, not human Context Recovery Time.",
+        "Coverage measures deterministic graph selection, not scientific validity or productivity improvement.",
+        "Selection is bounded to max_depth=2 and max_entities=18.",
+        "Coverage scores describe in-memory SRG selection, not scientific validity."
+      ],
+      "metrics": {
+        "context_entity_count": 10,
+        "context_quality_proxy": 1.0,
+        "context_reduction_ratio": 0.444444,
+        "context_relationship_count": 12,
+        "decision_coverage": 1.0,
+        "evidence_coverage": 1.0,
+        "generation_time_ms": 1.1472,
+        "relationship_coverage": 1.0,
+        "seed_coverage": 1.0,
+        "source_graph_entity_count": 18,
+        "source_graph_relationship_count": 22,
+        "unknown_coverage": 1.0
+      },
+      "scenario_id": "hypothesis_review_recovery",
+      "scenario_name": "Hypothesis Review Recovery",
+      "selected_entity_ids": [
+        "hypothesis.recovery-a",
+        "decision.recovery-a",
+        "evidence.contradict-a",
+        "evidence.support-a",
+        "unknown.recovery-a",
+        "hypothesis.recovery-b",
+        "question.recovery-a",
+        "knowledge.recovery-a",
+        "campaign.synthetic-context",
+        "context.synthetic-prior"
+      ],
+      "selected_relationship_count": 12,
+      "selected_relationship_ids": [
+        "rel.11",
+        "rel.07",
+        "rel.08",
+        "rel.22",
+        "rel.15",
+        "rel.19",
+        "rel.17",
+        "rel.18",
+        "rel.13",
+        "rel.02",
+        "rel.04",
+        "rel.05"
+      ],
+      "warnings": []
+    },
+    {
+      "deterministic_output_hash": "59aaf6b4d41a3023f854c9081add72a6dea8998d430b2200b45ff826cb419b73",
+      "generation_time_ms": 0.6945,
+      "limitations": [
+        "Synthetic fixture only; results may not generalize to real project graphs.",
+        "Metrics are automated proxies; no human evaluation was performed.",
+        "generation_time_ms is process-local generation latency, not human Context Recovery Time.",
+        "Coverage measures deterministic graph selection, not scientific validity or productivity improvement.",
+        "Selection is bounded to max_depth=2 and max_entities=18.",
+        "Coverage scores describe in-memory SRG selection, not scientific validity."
+      ],
+      "metrics": {
+        "context_entity_count": 8,
+        "context_quality_proxy": 1.0,
+        "context_reduction_ratio": 0.555556,
+        "context_relationship_count": 10,
+        "decision_coverage": 1.0,
+        "evidence_coverage": 1.0,
+        "generation_time_ms": 0.6945,
+        "relationship_coverage": 1.0,
+        "seed_coverage": 1.0,
+        "source_graph_entity_count": 18,
+        "source_graph_relationship_count": 22,
+        "unknown_coverage": 1.0
+      },
+      "scenario_id": "decision_trace_recovery",
+      "scenario_name": "Decision Trace Recovery",
+      "selected_entity_ids": [
+        "decision.recovery-a",
+        "evidence.contradict-a",
+        "evidence.support-a",
+        "unknown.recovery-a",
+        "hypothesis.recovery-a",
+        "question.recovery-a",
+        "knowledge.recovery-a",
+        "context.synthetic-prior"
+      ],
+      "selected_relationship_count": 10,
+      "selected_relationship_ids": [
+        "rel.11",
+        "rel.07",
+        "rel.08",
+        "rel.22",
+        "rel.15",
+        "rel.19",
+        "rel.17",
+        "rel.18",
+        "rel.13",
+        "rel.04"
+      ],
+      "warnings": []
+    },
+    {
+      "deterministic_output_hash": "87a1dc6ee8a98b1a39802ecd12b44134cedb4f3fae0e333d3999ff8599458922",
+      "generation_time_ms": 2.7885,
+      "limitations": [
+        "Synthetic fixture only; results may not generalize to real project graphs.",
+        "Metrics are automated proxies; no human evaluation was performed.",
+        "generation_time_ms is process-local generation latency, not human Context Recovery Time.",
+        "Coverage measures deterministic graph selection, not scientific validity or productivity improvement.",
+        "Selection is bounded to max_depth=2 and max_entities=18.",
+        "Coverage scores describe in-memory SRG selection, not scientific validity."
+      ],
+      "metrics": {
+        "context_entity_count": 8,
+        "context_quality_proxy": 1.0,
+        "context_reduction_ratio": 0.555556,
+        "context_relationship_count": 10,
+        "decision_coverage": 1.0,
+        "evidence_coverage": 1.0,
+        "generation_time_ms": 2.7885,
+        "relationship_coverage": 1.0,
+        "seed_coverage": 1.0,
+        "source_graph_entity_count": 18,
+        "source_graph_relationship_count": 22,
+        "unknown_coverage": 1.0
+      },
+      "scenario_id": "evidence_audit_recovery",
+      "scenario_name": "Evidence Audit Recovery",
+      "selected_entity_ids": [
+        "evidence.support-a",
+        "decision.recovery-a",
+        "evidence.contradict-a",
+        "unknown.recovery-a",
+        "hypothesis.recovery-a",
+        "question.recovery-a",
+        "knowledge.recovery-a",
+        "context.synthetic-prior"
+      ],
+      "selected_relationship_count": 10,
+      "selected_relationship_ids": [
+        "rel.11",
+        "rel.07",
+        "rel.08",
+        "rel.22",
+        "rel.15",
+        "rel.19",
+        "rel.17",
+        "rel.18",
+        "rel.13",
+        "rel.04"
+      ],
+      "warnings": []
+    }
+  ]
+}
